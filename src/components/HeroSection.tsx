@@ -8,7 +8,7 @@ const HeroSection = () => {
       className="relative flex min-h-screen items-center justify-center overflow-hidden pt-16"
     >
       {/* Background glow */}
-      <div className="pointer-events-none absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[500px] w-[500px] rounded-full bg-primary/10 blur-[120px]" />
+      <div className="pointer-events-none absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[500px] w-[500px] rounded-full bg-primary/10 blur-[100px]" />
 
       <div className="container relative z-10 mx-auto px-6 text-center">
         <motion.div
@@ -28,7 +28,7 @@ const HeroSection = () => {
           className="mt-6 font-display text-5xl font-bold leading-tight tracking-tight sm:text-6xl lg:text-7xl"
         >
           Hi, I'm{" "}
-          <span className="text-gradient">Alex Rivera</span>
+          <span className="text-gradient">Francis</span>
         </motion.h1>
 
         <motion.p

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/francis-1.jpeg";
+import resume from "@/assets/FrancisEmmanuelResume.pdf";
 
 const AboutSection = () => {
   return (
@@ -64,7 +65,8 @@ const AboutSection = () => {
             </div>
 
             <a
-              href="/resume.pdf"
+
+                href={resume}
               download
               className="mt-8 inline-flex items-center gap-2 rounded-lg border border-primary/50 px-6 py-2.5 text-sm font-medium text-primary transition-colors hover:bg-primary/10"
             >
