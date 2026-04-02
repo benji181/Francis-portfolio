@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ExternalLink } from "lucide-react";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
+import project1 from "@/assets/Buselor.png";
+import project2 from "@/assets/Dkonnect.png";
+import project3 from "@/assets/Rank128.png";
 import project4 from "@/assets/project-4.jpg";
 import project5 from "@/assets/project-5.jpg";
 import project6 from "@/assets/project-6.jpg";
@@ -11,9 +11,9 @@ import project6 from "@/assets/project-6.jpg";
 type Category = "All" | "UI/UX" | "Graphic Design";
 
 const projects = [
-  { id: 1, title: "FinTrack Dashboard", desc: "A fintech mobile app with intuitive data visualization and seamless user flows.", category: "UI/UX" as const, image: project1 },
-  { id: 2, title: "BranchOne Branding", desc: "Complete brand identity system including logo, stationery, and brand guidelines.", category: "Graphic Design" as const, image: project2 },
-  { id: 3, title: "ShopFlow E-Commerce", desc: "Full website redesign focusing on conversion optimization and user experience.", category: "UI/UX" as const, image: project3 },
+  { id: 1, title: "Buselor", desc: "A fintech mobile app with intuitive data visualization and seamless user flows.", category: "UI/UX" as const, image: project1 },
+  { id: 2, title: "DKonnect", desc: "Complete brand identity system including logo, stationery, and brand guidelines.", category: "UI/UX" as const, image: project2 },
+  { id: 3, title: "Rank128", desc: "Full website redesign focusing on Seo optimization and user experience.", category: "UI/UX" as const, image: project3 },
   { id: 4, title: "Festival Poster Series", desc: "Bold typographic poster designs for a music festival campaign.", category: "Graphic Design" as const, image: project4 },
   { id: 5, title: "Social Campaign Kit", desc: "Cohesive social media template system for a lifestyle brand.", category: "Graphic Design" as const, image: project5 },
   { id: 6, title: "Wellness App Design", desc: "Health & wellness app with onboarding, tracking dashboard, and habit builder.", category: "UI/UX" as const, image: project6 },

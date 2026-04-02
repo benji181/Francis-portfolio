@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-6 sm:flex-row">
         <span className="font-display text-lg font-bold text-gradient">Alex.</span>
         <p className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Alex Rivera. All rights reserved.
+          © {new Date().getFullYear()} Francis. All rights reserved.
         </p>
         <div className="flex gap-6">
           {["Home", "About", "Portfolio", "Contact"].map((link) => (
