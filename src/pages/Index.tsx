@@ -6,7 +6,8 @@ import PortfolioSection from "@/components/PortfolioSection";
 import ServicesSection from "@/components/ServicesSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
-import LineWaves from "@/components/LineWaves/LineWaves";
+import LineWaves from "@/components/Linewaves/LineWaves.tsx";
+
 
 const Index = () => {
     const { theme } = useTheme();
