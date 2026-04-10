@@ -92,10 +92,11 @@ const ContactSection = () => {
 
             <div className="space-y-4">
               {[
-                { icon: Mail, label: "alex@designstudio.com", href: "mailto:alex@designstudio.com" },
-                { icon: Phone, label: "+1 (555) 123-4567", href: "tel:+15551234567" },
+                { icon: Mail, label: "francixsemmanuel@gmail.com ", href: "mailto:francixsemmanuel@gmail.com " },
+                { icon: Phone, label: "+234 806 243 2725", href: "tel:+2348062432725" },
+                { icon: Phone, label: "+234 812 854 2506", href: "tel:+2348128542506" },
                 { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-                { icon: Globe, label: "Behance", href: "https://behance.net" },
+                { icon: Globe, label: "Behance", href: "https://www.behance.net/yomiempire" },
               ].map((item) => (
                 <a
                   key={item.label}
