@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="border-t border-border py-8">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-6 sm:flex-row">
-        <span className="font-display text-lg font-bold text-gradient">Alex.</span>
+        <span className="font-display text-lg font-bold text-gradient"> Francis.</span>
         <p className="text-xs text-muted-foreground">
           © {new Date().getFullYear()} Francis. All rights reserved.
         </p>
