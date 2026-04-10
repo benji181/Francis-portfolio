@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import { useTheme } from "@/contexts/ThemContext";
-import LineWaves from "@/components/Linewaves/LineWaves.tsx";
+import LineWaves from "@/components/LineWaves/LineWaves.tsx";
 
 const HeroSection = () => {
   const { theme } = useTheme();
